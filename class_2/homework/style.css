@@ -9,6 +9,7 @@ main {
 	width: 960px;
 	background-image: url(css-layouts-paper-texture.png);
 	border-radius: 12px;
+	position: relative;
 }
 
 header {
@@ -21,20 +22,20 @@ p.caption   {
 	text-align: right;
 }
 section {
-	background-image: url(css-layouts-paper-texture.png);
 	border-radius: 12px;
-	display:block;
-	overflow:hidden;
-}
+	position: relative;
+	}
 #left_column {
-	float:left;
-	width: 450px;
-	margin: 10px;
+	width: 400px;
+	margin-left: 20px;
 }
 		
 #right_column {
-	float:right;
-	width: 450px;
+	position: absolute;
+	top: 550px;
+	left: 500px;
+	width: 400px;
 	margin: 10px;
+	overflow: hidden;
 }
 
