@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+}
+
+main {
+	margin:0 auto;
+	padding:10px;
+	width: 960px;
+	background-image: url(css-layouts-paper-texture.png);
+	border-radius: 12px;
+}
+
+header {
+	text-align:center;
+}
+
+p.caption   {
+	font-size: .8em;
+	font-style:italic;
+	text-align: right;
+}
+section {
+	background-image: url(css-layouts-paper-texture.png);
+	border-radius: 12px;
+	display:block;
+	overflow:hidden;
+}
+#left_column {
+	float:left;
+	width: 450px;
+	margin: 10px;
+}
+		
+#right_column {
+	float:right;
+	width: 450px;
+	margin: 10px;
+}
+

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+}
+section {
+	margin-left: 300px;
+	}
+
+header {
+	position:fixed;
+	top: 5px;
+	left: 5px;
+	background-color:#fff;
+	padding:10px;
+  	border-radius: 12px; 
+  	background-clip: padding-box;
+	}
+
+ul {
+	list-style: none;
+	padding-left:0;
+	}
+body {
+	background-image:url(css-layouts-paper-texture.png);
+}
+	
+
+
